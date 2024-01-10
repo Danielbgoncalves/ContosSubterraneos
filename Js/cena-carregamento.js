@@ -56,15 +56,15 @@ export default  class CenaCarregamento extends Phaser.Scene {
         /* parei aqui, falta consfigurar cena-luta.js */
         this.load.image('fundo-luta', 'imagens/fundo-luta.png');
         this.load.spritesheet('barra', 'imagens/barra.png', {frameWidth: 11, frameHeight: 86});
-        this.load.image('atk23,5', '/imagens/atk23,5.png');
-        this.load.image('atk18,5', '/imagens/atk18,5.png');
-        this.load.image('atk14', '/imagens/atk14.png');
-        this.load.image('atk9', '/imagens/atk9.png');
-        this.load.image('perdeu0', '/imagens/perdeu0.png');
-        this.load.image('perdeu33', '/imagens/perdeu33.png');
-        this.load.image('ganhou', '/imagens/batalha-ganhou.png');
-        this.load.image('perdeu', '/imagens/batalha-perdeu.png');
-        this.load.image('corretivo-amarelo', '/imagens/corretivo-fundoamarelo.png');
+        this.load.image('atk23,5', 'imagens/atk23,5.png');
+        this.load.image('atk18,5', 'imagens/atk18,5.png');
+        this.load.image('atk14', 'imagens/atk14.png');
+        this.load.image('atk9', 'imagens/atk9.png');
+        this.load.image('perdeu0', 'imagens/perdeu0.png');
+        this.load.image('perdeu33', 'imagens/perdeu33.png');
+        this.load.image('ganhou', 'imagens/batalha-ganhou.png');
+        this.load.image('perdeu', 'imagens/batalha-perdeu.png');
+        this.load.image('corretivo-amarelo', 'imagens/corretivo-fundoamarelo.png');
         //this.load.image('gif', 'imagens/gif.gif');
         this.load.image('peixe', 'imagens/peixe.png');
         this.load.image('coletado', 'imagens/item-coletado.png');
